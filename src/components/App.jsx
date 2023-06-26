@@ -17,7 +17,7 @@ export class App extends Component {
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
     if (isExisting) {
-      alert(`${isExisting.name} is already in contacts`);
+      alert(`${name} is already in contacts`);
       return;
     } else {
       const contactToAdd = {
