@@ -12,7 +12,7 @@ export class App extends Component {
 
   addContact = ({ name, number }) => {
     const { contacts } = this.state;
-    console.log(name, number);
+
     const isExisting = contacts.find(
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
