@@ -50,10 +50,10 @@ export default class ContactForm extends Component {
             title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
             required
           />
+          <button type="submit" className={css.formBtn}>
+            Add contact
+          </button>
         </form>
-        <button type="submit" className={css.formBtn}>
-          Add contact
-        </button>
       </div>
     );
   }
